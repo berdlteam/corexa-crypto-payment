@@ -1,0 +1,71 @@
+/* Hide header/menu only on thank you page for our gateway */
+body.spg-ty-hide-header header,
+body.spg-ty-hide-header #masthead,
+body.spg-ty-hide-header .site-header,
+body.spg-ty-hide-header .header,
+body.spg-ty-hide-header .main-header,
+body.spg-ty-hide-header .elementor-location-header,
+body.spg-ty-hide-header .et-l--header,
+body.spg-ty-hide-header .fusion-header-wrapper,
+body.spg-ty-hide-header .wp-block-template-part.header {
+  display: none !important;
+}
+
+/* Optional: remove spacing caused by fixed headers in some themes */
+body.spg-ty-hide-header {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* JivoChat uses <jdiv> custom nodes */
+body.spg-ty-hide-header jdiv {
+  display: none !important;
+}
+
+/* Copied indicator hidden by default */
+.spg-copy-ok {
+  display: none;
+}
+
+/* Show when JS toggles */
+.spg-copy-ok.is-visible {
+  display: inline;
+}
+
+/* Optional: timer expired styling hook */
+.spg-ty-top-timer.is-expired .spg-ty-timer-text {
+  opacity: 0.8;
+}
+
+/* QR image default */
+.spg-ty-qr img {
+  height: auto;
+  max-width: 220px; /* default */
+}
+
+/* Sizes (step 20) */
+.spg-ty-qr.spg-qr-120 img { max-width: 120px; }
+.spg-ty-qr.spg-qr-140 img { max-width: 140px; }
+.spg-ty-qr.spg-qr-160 img { max-width: 160px; }
+.spg-ty-qr.spg-qr-180 img { max-width: 180px; }
+.spg-ty-qr.spg-qr-200 img { max-width: 200px; }
+.spg-ty-qr.spg-qr-220 img { max-width: 220px; }
+.spg-ty-qr.spg-qr-240 img { max-width: 240px; }
+.spg-ty-qr.spg-qr-260 img { max-width: 260px; }
+.spg-ty-qr.spg-qr-280 img { max-width: 280px; }
+.spg-ty-qr.spg-qr-300 img { max-width: 300px; }
+.spg-ty-qr.spg-qr-320 img { max-width: 320px; }
+.spg-ty-qr.spg-qr-340 img { max-width: 340px; }
+.spg-ty-qr.spg-qr-360 img { max-width: 360px; }
+.spg-ty-qr.spg-qr-380 img { max-width: 380px; }
+.spg-ty-qr.spg-qr-400 img { max-width: 400px; }
+.spg-ty-qr.spg-qr-420 img { max-width: 420px; }
+.spg-ty-qr.spg-qr-440 img { max-width: 440px; }
+.spg-ty-qr.spg-qr-460 img { max-width: 460px; }
+.spg-ty-qr.spg-qr-480 img { max-width: 480px; }
+.spg-ty-qr.spg-qr-500 img { max-width: 500px; }
+.spg-ty-qr.spg-qr-520 img { max-width: 520px; }
+.spg-ty-qr.spg-qr-540 img { max-width: 540px; }
+.spg-ty-qr.spg-qr-560 img { max-width: 560px; }
+.spg-ty-qr.spg-qr-580 img { max-width: 580px; }
+.spg-ty-qr.spg-qr-600 img { max-width: 600px; }

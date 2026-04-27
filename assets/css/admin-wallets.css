@@ -1,0 +1,46 @@
+/* Admin wallets UI only */
+
+.spg-custom-wrap.is-hidden,
+.spg-tag-wrap.is-hidden {
+  display: none;
+}
+
+.spg-custom-wrap {
+  margin-top: 6px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.spg-custom-coin {
+  width: 120px;
+}
+
+.spg-custom-net {
+  width: 140px;
+}
+
+.spg-tag-wrap {
+  margin-top: 6px;
+}
+
+.spg-tag-label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+.spg-wallets-actions {
+  margin-top: 10px;
+}
+
+.spg-col-on {
+  width: 60px;
+}
+
+.spg-col-currency {
+  min-width: 320px;
+}
+
+.spg-col-actions {
+  width: 90px;
+}

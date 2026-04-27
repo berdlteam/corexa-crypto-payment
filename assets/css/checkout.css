@@ -1,0 +1,846 @@
+/* =========================
+   Legacy Binance styles
+========================= */
+.Binance_simple_payment_gateway_wallet_address {
+  line-break: anywhere;
+}
+
+.binance_manual_payment_selection_content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.binance_manual_payment_QR_and_Info {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 4%;
+}
+
+.binance_manual_payment_text {
+  text-align: center;
+}
+
+.binance_manual_payment_QR_image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.binance_manual_payment_copyField {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  border-bottom: solid 1px lightgray;
+  align-items: center;
+}
+
+.binance_manual_payment_copyField p {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: black;
+}
+
+.binance_manual_payment_text p {
+  color: black;
+  font-size: 12px;
+}
+
+.Binance_manual_payment_basic_info p {
+  font-size: 12px;
+}
+
+.binance_manual_copyIcon {
+  width: 20px;
+  height: 20px !important;
+  cursor: pointer;
+}
+
+#product_file,
+#product_image {
+  display: none;
+}
+
+.inputLabelforUploader {
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 1em 2em;
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+}
+
+#productUploadBtn {
+  border-color: #cba957 #bf942a #aa8326;
+  background: #f0c14b;
+  margin-top: 5%;
+  color: black;
+  font-weight: 600;
+}
+
+#product_price {
+  width: 13%;
+}
+
+.producti_select {
+  width: 17%;
+}
+
+#timer_Binance_manual_payment_gateway_crypto,
+#timer_Binance_manual_payment_gateway {
+  margin-right: 30px;
+}
+
+/* Small optional polish */
+.Binance_manual_payment_basic_info {
+  margin-top: 10px;
+}
+
+.spg-warning {
+  color: #b00020;
+}
+
+.mcc_hidden {
+  display: none !important;
+}
+
+/* =========================
+   Checkout
+========================= */
+
+.spg-tag-wrap {
+  display: none;
+  margin-top: 6px;
+}
+
+.spg-tag-wrap input {
+  width: 260px;
+  max-width: 100%;
+}
+
+.spg-currency-select {
+  min-width: 320px;
+}
+
+.spg-address-input {
+  min-width: 420px;
+}
+
+.spg-wallets-table td {
+  vertical-align: top;
+}
+
+.spg-wrap {
+  margin-top: 12px;
+}
+
+.spg-wrap > p {
+  margin-bottom: 8px;
+}
+
+/* Old native select styles kept for fallback only */
+.spg-wallet-select {
+  width: 100%;
+  padding: 14px 44px 14px 14px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  background-color: #f6f7f9;
+  border: 1px solid #edf0f3;
+  border-radius: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, #6b7280 50%),
+    linear-gradient(135deg, #6b7280 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(50% - 3px),
+    calc(100% - 14px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.spg-wallet-select:hover {
+  background-color: #f9fafb;
+}
+
+.spg-wallet-select:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #c7d2fe;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.spg-wallet-select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.woocommerce-invalid .spg-wallet-select {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
+
+/* Custom wallet picker */
+.spg-wallet-picker {
+  position: relative;
+  width: 100%;
+}
+
+.spg-wallet-picker-toggle {
+  width: 100%;
+  border: 1px solid #edf0f3;
+  border-radius: 14px;
+  background: #f6f7f9;
+  padding: 14px 16px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.spg-wallet-picker-toggle:hover {
+  background-color: #f9fafb;
+}
+
+.spg-wallet-picker-toggle:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #c7d2fe;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.spg-wallet-picker-selected {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.spg-wallet-picker-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  object-fit: contain;
+  flex: 0 0 24px;
+}
+
+.spg-wallet-picker-icon.is-hidden {
+  display: none;
+}
+
+.spg-wallet-picker-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.25;
+}
+
+.spg-wallet-picker-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.12);
+  padding: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s ease;
+}
+
+.spg-wallet-picker.is-open .spg-wallet-picker-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.spg-wallet-picker-item {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: none;
+}
+
+.spg-wallet-picker-item:hover {
+  background: #f3f4f6;
+}
+
+.spg-wallet-picker-item.is-selected {
+  background: #eef2ff;
+}
+
+.spg-wallet-picker-item-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  object-fit: contain;
+  flex: 0 0 22px;
+}
+
+.spg-wallet-picker-item-icon.is-hidden {
+  display: none;
+}
+
+.spg-wallet-picker-item-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111827;
+  line-height: 1.25;
+}
+
+@media (max-width: 480px) {
+  .spg-wallet-select {
+    padding: 13px 42px 13px 13px;
+    font-size: 14px;
+  }
+
+  .spg-wallet-picker-toggle {
+    padding: 13px 14px;
+  }
+
+  .spg-wallet-picker-label,
+  .spg-wallet-picker-item-label {
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   Thank you page
+========================= */
+
+.spg-ty {
+  padding: 24px 12px;
+  background: #f3f4f6;
+}
+
+.spg-ty-card {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #eef0f3;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.spg-ty-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.spg-ty-top-left {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.spg-ty-top-timer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spg-ty-coin-dot {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.spg-ty-coin-dot--fallback {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #dbeafe, #fce7f3);
+}
+
+.spg-ty-top-amount {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.spg-ty-body {
+  padding: 20px 18px 22px;
+}
+
+.spg-ty-title {
+  margin: 6px 0 14px;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.spg-ty-title-coin {
+  font-weight: 800;
+}
+
+.spg-ty-title-net {
+  margin-left: 6px;
+  font-size: 13px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #374151;
+  vertical-align: middle;
+}
+
+.spg-ty-panel {
+  background: #f6f7f9;
+  border: 1px solid #edf0f3;
+  border-radius: 14px;
+  padding: 16px 14px;
+}
+
+.spg-ty-qr {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 6px;
+}
+
+.spg-ty-qr img {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #eef0f3;
+}
+
+.spg-ty-help {
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  margin: 8px 0 14px;
+}
+
+.spg-ty-row {
+  padding: 12px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.spg-ty-row--border {
+  margin-top: 10px;
+}
+
+.spg-ty-row--split {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.spg-ty-kv {
+  min-width: 0;
+}
+
+.spg-ty-kv--right {
+  text-align: right;
+}
+
+.spg-ty-k {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+.spg-ty-v {
+  font-weight: 700;
+  color: #111827;
+}
+
+.spg-ty-v--mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+}
+
+.spg-ty-copy {
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  cursor: pointer;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.spg-ty-copy:hover {
+  background: #f9fafb;
+}
+
+.spg-ty-copied {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.spg-ty-timer-text {
+  font-variant-numeric: tabular-nums;
+}
+
+.spg-ty-note {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid #eef0f3;
+  border-radius: 12px;
+  background: #fff;
+  color: #374151;
+}
+
+.spg-ty-foot {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Only SPG gateway icon next to title */
+.woocommerce-checkout #payment .payment_methods li.payment_method_corexa_crypto_manual > label img {
+  width: 160px;
+  object-fit: contain;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.woocommerce-thankyou-order-received .spg-ty-order-received {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.woocommerce-thankyou-order-received .spg-ty-info-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1;
+  background: #b2c0d7;
+  color: #1d4ed8;
+  flex: 0 0 auto;
+  border: solid 1px;
+}
+
+.woocommerce-thankyou-order-received .spg-ty-order-received-text {
+  font-weight: 400;
+}
+
+/* ======================================
+   Thank You notice customization
+   Only for our gateway
+====================================== */
+
+/* Remove WooCommerce green success icon */
+body.spg-ty-hide-header .woocommerce-notice--success::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Align notice content nicely */
+body.spg-ty-hide-header .woocommerce-thankyou-order-received {
+  padding-left: 0;
+}
+
+/* Our info wrapper */
+.spg-ty-order-received {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Custom info icon */
+.spg-ty-info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Text polish */
+.spg-ty-order-received-text {
+  color: #374151;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#tbay-main-content {
+  padding-top: 0% !important;
+}
+
+.spg-ty-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.spg-back-to-store {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.spg-back-to-store:hover {
+  background: #e5e7eb;
+}
+/* ===== Force custom wallet picker to beat theme button styles ===== */
+
+#payment .payment_box .spg-wallet-picker {
+  position: relative !important;
+  width: 100% !important;
+}
+
+/* #payment .payment_box .spg-wallet-picker-toggle {
+  width: 100% !important;
+  display: block !important;
+  border: 1px solid #edf0f3 !important;
+  border-radius: 14px !important;
+  background: #f6f7f9 !important;
+  padding: 14px 16px !important;
+  text-align: left !important;
+  cursor: pointer !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
+  color: #111827 !important;
+} */
+
+#payment .payment_box .spg-wallet-picker-selected {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+#payment .payment_box .spg-wallet-picker-icon {
+  width: 22px !important;
+  height: 22px !important;
+  object-fit: contain !important;
+  border-radius: 4px !important;
+  flex: 0 0 22px !important;
+}
+
+#payment .payment_box .spg-wallet-picker-icon.is-hidden {
+  display: none !important;
+}
+
+#payment .payment_box .spg-wallet-picker-label {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #111827 !important;
+  line-height: 1.25 !important;
+}
+
+#payment .payment_box .spg-wallet-picker-menu {
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 999999 !important;
+
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 14px !important;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.12) !important;
+  padding: 8px !important;
+  max-height: 320px !important;
+  overflow-y: auto !important;
+
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transform: translateY(6px) !important;
+}
+
+#payment .payment_box .spg-wallet-picker.is-open .spg-wallet-picker-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: translateY(0) !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  border: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-align: left !important;
+  padding: 12px 14px !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+  color: #111827 !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item:hover {
+  background: #f3f4f6 !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item.is-selected {
+  background: #eef2ff !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item-icon {
+  width: 22px !important;
+  height: 22px !important;
+  object-fit: contain !important;
+  border-radius: 4px !important;
+  flex: 0 0 22px !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item-icon.is-hidden {
+  display: none !important;
+}
+
+#payment .payment_box .spg-wallet-picker-item-label {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #111827 !important;
+  line-height: 1.25 !important;
+}
+@media (max-width: 420px) {
+  .spg-ty-row--split {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .spg-ty-kv--right {
+    text-align: left;
+  }
+
+  .spg-ty {
+    padding: 4px 2px;
+    background: #f3f4f6;
+    width: 92%;
+  }
+
+  .woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-received,
+  .woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details {
+    width: 92%;
+  }
+}
+
+/* Keep Corexa dropdown above other payment methods */
+.woocommerce-checkout #payment ul.payment_methods > li.payment_method_corexa_crypto_manual {
+  position: relative !important;
+  z-index: 50 !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods > li.payment_method_corexa_crypto_manual .payment_box {
+  position: relative !important;
+  z-index: 60 !important;
+  overflow: visible !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods > li.payment_method_corexa_crypto_manual .spg-wallet-picker {
+  position: relative !important;
+  z-index: 70 !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods > li.payment_method_corexa_crypto_manual .spg-wallet-picker-menu {
+  position: absolute !important;
+  z-index: 999999 !important;
+}
+.spg-wallet-picker-toggle {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.spg-wallet-picker-toggle,
+#payment .payment_box .spg-wallet-picker-toggle {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  text-align: left !important;
+}
+
+.spg-wallet-picker-selected,
+#payment .payment_box .spg-wallet-picker-selected {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+.spg-wallet-picker-label,
+#payment .payment_box .spg-wallet-picker-label {
+  display: inline-block !important;
+  line-height: 1.2 !important;
+}
+
+.spg-wallet-picker-arrow,
+#payment .payment_box .spg-wallet-picker-arrow {
+  display: inline-block !important;
+  margin: 0 0 0 auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: #6b7280 !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: middle !important;
+  transform: none !important;
+}
+
+.spg-wallet-picker.is-open .spg-wallet-picker-arrow,
+#payment .payment_box .spg-wallet-picker.is-open .spg-wallet-picker-arrow {
+  transform: rotate(180deg) !important;
+}

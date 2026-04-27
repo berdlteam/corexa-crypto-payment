@@ -1,0 +1,44 @@
+.order_data_column.spg-admin-order-col {
+  width: 100% !important;
+  clear: both;
+  margin-top: 12px;
+}
+
+.spg-admin-title {
+  margin: 0 0 8px;
+}
+
+.spg-admin-box {
+  padding: 12px;
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.spg-admin-row {
+  margin: 0 0 8px;
+}
+
+.spg-admin-subrow {
+  margin: -4px 0 8px;
+  color: #666;
+}
+
+.spg-admin-muted {
+  margin: 0;
+  color: #666;
+}
+
+.spg-admin-code {
+  display: block;
+  word-break: break-all;
+  margin: 0 0 8px;
+}
+
+.spg-admin-actions {
+  margin-top: 10px;
+}
+
+.spg-admin-link {
+  text-decoration: none;
+}
