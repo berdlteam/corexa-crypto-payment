@@ -1,8 +1,9 @@
 # 🚀 Corexa – Crypto Payment Gateway for WooCommerce
 
+![Corexa Crypto_Gateway](./assets/COREXA-Crypto-Gateway-banner.png)
+
 Accept cryptocurrency payments directly to your own wallets — no third parties, no KYC, no extra fees.
 
-![Corexa Crypto_Gateway](./assets/COREXA-Crypto-Gateway-banner.png)
 ---
 
 ## 🔥 Overview
